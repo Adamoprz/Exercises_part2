@@ -23,7 +23,7 @@ class Manager:
     def sell(self, id_to_sell):
         self.id_sell = id_to_sell.return_order()
         for order in self.orders.keys():
-            if order == self.id_sell :
+            if order == self.id_sell:
                 if self.orders[self.id_sell] != 0:
                     self.orders[self.id_sell] -= 1
 

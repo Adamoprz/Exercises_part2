@@ -5,7 +5,7 @@ class Pojazdy:
         nr_zaj = kwargs['nr_zaj']
         rodzaj_zajezdni=kwargs['rodza_zajezdni']
 
-class zajezdnia(self, name ):
+class zajezdnia():
     def __init__(self):
         pass
     def __str__(self):
